@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+  }
+  
+  h1 {
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: yellow;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  p {
+    text-align: center;
+    color: yellow;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  
+  #button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    background-color: yellow;
+    animation: b 1.7s infinite alternate;
+  }
+  
+  @keyframes b {
+    0% {
+      margin-top: 50px;
+      margin-left: 2%;
+    }
+    100% {
+      margin-top: 50px;
+      margin-left: 92%;
+    }
+  }
+  
